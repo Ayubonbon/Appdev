@@ -24,7 +24,7 @@ import com.google.firebase.auth.GoogleAuthProvider;
 import android.widget.Button;
 import android.widget.Toast;
 
-public class MainActivity extends AppCompatActivity {
+public class LoginActivity extends AppCompatActivity {
 
 
     private static final int RCSignIn = 9000;
@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("SignIn", "Sign-in successful: " + (user != null ? user.getEmail() : "unknown user"));
                         Toast.makeText(this, "Sign-in successful!", Toast.LENGTH_SHORT).show();
                         // Proceed to next activity if needed
-                        startActivity(new Intent(MainActivity.this, MainActivity.class));
+                        startActivity(new Intent(LoginActivity.this, LoginActivity.class));
                         finish();
                     } else {
                         Log.e("SignIn", "Sign-in with credential failed", task.getException());
