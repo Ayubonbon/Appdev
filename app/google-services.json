@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "437198197502",
+    "project_id": "aiva-auth",
+    "storage_bucket": "aiva-auth.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:437198197502:android:17d14addc02cc6627a0baf",
+        "android_client_info": {
+          "package_name": "com.ayushi.aivaapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "437198197502-ptbh4s4vsfucf68os3sj4vgkmn40ccv7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayushi.aivaapp",
+            "certificate_hash": "6c534f0a272cc2b770b778ef26b257a3a3979e39"
+          }
+        },
+        {
+          "client_id": "437198197502-i9m10r1tpfdj6fitn7g33ef0r6h302q1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDp1Bxux95JC0NzQYNDp2sedFF3XdEH7aM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "437198197502-i9m10r1tpfdj6fitn7g33ef0r6h302q1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

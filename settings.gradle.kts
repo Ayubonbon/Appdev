@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LoginScreen"
+rootProject.name = "AivaApp"
 include(":app")
  
