@@ -42,13 +42,22 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.navigation.fragment)
     implementation(libs.navigation.ui)
+    implementation(libs.firebase.auth)
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
-    implementation("com.google.android.gms:play-services-auth:21.3.0")
-    implementation("com.google.firebase:firebase-auth:23.2.0")
+    implementation("androidx.appcompat:appcompat:1.6.1")
+    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
+
+    // Firebase BoM (Bill of Materials)
     implementation(platform("com.google.firebase:firebase-bom:33.9.0"))
-    implementation("com.google.firebase:firebase-database")
+
+    // Firebase Authentication
+    implementation("com.google.firebase:firebase-auth")
+
+    // Google Sign-In SDK
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+
 
 
 

@@ -14,11 +14,11 @@
       },
       "oauth_client": [
         {
-          "client_id": "437198197502-ptbh4s4vsfucf68os3sj4vgkmn40ccv7.apps.googleusercontent.com",
+          "client_id": "437198197502-dbg05sn9e2rnpm738fvk6q1jqupkqt6g.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.ayushi.aivaapp",
-            "certificate_hash": "6c534f0a272cc2b770b778ef26b257a3a3979e39"
+            "certificate_hash": "1c3eeea1b457aca19fb8cb437b2fc0daaf264613"
           }
         },
         {
